@@ -1,0 +1,20 @@
+Thread Studio — Deploy
+
+1) Push full local project (from your computer):
+
+   cd thread-studio
+   git init
+   git remote add origin https://github.com/infothreadstudio-dev/thread-studio.git
+   git add .
+   git commit -m "Publish Thread Studio"
+   git branch -M main
+   git push -u origin main --force
+
+2) Open Vercel import:
+   https://vercel.com/new/import?s=https://github.com/infothreadstudio-dev/thread-studio
+
+3) Set environment variables:
+   ADMIN_KEY=your-long-secret
+   NEXT_PUBLIC_SITE_URL=https://your-app.vercel.app
+
+4) Deploy → copy the live URL
