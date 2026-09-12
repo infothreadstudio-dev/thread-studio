@@ -13,7 +13,6 @@ export function getAdminKey(): string | null {
     return null;
   }
 
-  // Dev-only fallback so local work still functions
   return process.env.ADMIN_KEY?.trim() || "threadstudio-dev-only";
 }
 
