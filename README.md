@@ -11,4 +11,4 @@ npm run dev
 
 Deploy: connect this repo to [Vercel](https://vercel.com/new).
 
-Set env: `ADMIN_KEY`, `NEXT_PUBLIC_SITE_URL`.
+
